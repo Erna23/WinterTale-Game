@@ -1,0 +1,24 @@
+﻿title: Day6_sh
+tags:
+---
+<<ChangeImage "기본엔딩">>
+<<PlayAudio1 "Ending">>
+기차가 종착역에 도착하자, 하나둘 내리기 시작했다. 
+그때 누군가 당신을 붙잡았다. 
+<<ShowCharacter "sh">>
+차승호: 아이고, 발걸음이 또 엄청 빠르시네. 휴, 붙잡아서 다행이에요. 줄 게 있어서요!
+<<HideCharacter "sh">>
+차승호는 주머니에서 반짝 빛나는 목걸이를 꺼내 건넸다. 
+<<ShowItemPop>>
+<<wait 4>>
+<<ShowCharacter "sh">>
+차승호: 제가 공예 전공하면서 만들었던 건데, 주고 싶어서요. 덕분에 제 앞날을 향해 갈 수 있게 됐잖아요!
+차승호: 공예 그만두고, 독일로 떠나보자는 그런 희망을 품고요!
+차승호: 잘 어울릴 것 같은데! 다음에 다시 만날 때 하고 만나요. 
+<<ShowCharacter "sh_sm">>
+차승호: 이제 갈게요, 잘 가요!
+<<HideCharacter "sh_sm">>
+<<ChangeEndingImage "승호엔딩">>
+<<wait 4>>
+<<ChangeImage "기본엔딩">>
+===

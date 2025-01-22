@@ -1,0 +1,23 @@
+﻿title: Start
+tags:
+---
+<<CheckDay>>
+<<ChangeImage2 "일러스트1">>
+<<PlayAudio1 "Office">>
+...
+주인공: 이게 내가 바라던 삶이었을까?
+주인공: 매일 같은 업무, 같은 사람들...
+<<wait 2>>
+<<ChangeImage2 "일러스트2">>
+<<PlayAudio1 "Opening">>
+<<wait 3.5>>
+<<ChangeImage2 "일러스트3">>
+<<wait 3.5>>
+<<ChangeImage2 "일러스트4">>
+<<wait 3.5>>
+주인공: 그래, 가보자.
+<<ChangeImage2 "일러스트5">>
+<<wait 3.5>>
+승무원: 변화를 원하나보네요.
+승무원: 걱정 말아요. 이 기차는 당신을 꼭 필요한 곳으로 데려다 줄 테니까.
+===

@@ -1,0 +1,169 @@
+﻿title: Day4
+tags:
+---
+<<CheckDay>>
+<<ChangeImage "수면실" "수면실">>
+<<PlayAudio1 "Episode3">>
+점점 밤을 향해 간다. 그들은 기차 내부에 위치한 수면실로 이동했다. 2층 침대 3개로 이루어진 방이지만, 넓고 쾌적했다. 
+<<ChangeImage "창밖" "창밖">>
+침대에 누우면, 벽에 조그마한 창문이 뚫려 있어 바깥을 볼 수 있었다. 그들은 각자 침대에 누워 잠을 청해보았다.
+<<ShowCharacter "sh">>
+차승호: 다들 잘 자요. 
+차승호: …
+차승호: 혹시 자는 사람?
+<<ShowCharacter "js">>
+윤지수: 잘 자라고 말하신지… 1분도 안 된 것… 같은데요. 
+<<ShowCharacter "sh">>
+차승호: 심심해서요. 
+<<HideCharacter "sh">>
+그는 윗층에서 사람들을 보더니, 아무도 말이 없자 괜시리 헛기침을 하고 창문으로 시선을 돌렸다. 
+그들은 긴 밤 동안 잠을 이루지 못했다. 생각이 무거워 다 내보내기 어려웠을 것이다. 
+<<wait 2>>
+<<ChangeImage "수면실" "수면실">>
+그렇게 새벽이 되었다. 해는 뜨지 않았지만, 모두가 깨어 있었다. 윗층에서 누군가 조심히 말을 걸었다. 
+<<ShowCharacter "js_cr">>
+윤지수: … 자요?
+<<HideCharacter "js_cr">>
+주인공: 저요? 아직은… 안 자요.
+<<ShowCharacter "js">>
+윤지수: 저, 제 삶에 대해 고민해봤…거든요. 그나마 당신이 저와 비슷한… 처지에 있는 것 같아서요. 제가 정말 좋아하는… 일이라는 걸 찾아보고 싶어졌어요. 
+윤지수: 지금까지는 그냥 일은… 일이라고만 생각했거든요… 성과를 내야 하는… 일을 잠깐… 쉬어보려고요. 삶의 방…향을 찾기 위해서요. 
+<<HideCharacter "js">>
+
+-> 주인공: 좋아요. 좋아하는 일을 찾아 떠나는 모험이잖아요. 뭐든 도전해보면 좋죠.
+	<<PlayAudio2 "Selection">>
+	<<IncreaseLikes "sh">>
+-> 주인공: 그래요, 고민하는 것도 좋지만… 조금 쉬어요. 생각이 많으면 병이 될 수 있어요. 푹 자요.
+	<<PlayAudio2 "Selection">>
+	<<IncreaseLikes "ej">>
+-> 주인공: 마음 고생이 많았겠어요. 저는 언제나 응원해요. 저한테 말해줘서 고마워요.
+	<<PlayAudio2 "Selection">>
+	<<IncreaseLikes "js">>
+	<<IncreaseLikes "js">>
+
+<<ShowCharacter "js">>
+윤지수: 고마워요… 잘 자요. 
+<<ShowCharacter "sh">>
+차승호: 두 분 안 자요? 저도 얘기 껴주세요.
+<<ShowCharacter "js">>
+윤지수: 커어… 
+<<ShowCharacter "sh">>
+차승호: 아, 생쥐는 갑자기 잠들었나요? 아침형 인간이신가보네… 
+<<HideCharacter "sh">>
+
+-> 주인공: 쉿. 자는 사람 있잖아요. 조용히 합시다.
+	<<PlayAudio2 "Selection">>
+	<<IncreaseLikes "js">>
+	<<IncreaseLikes "js">>
+	<<ShowCharacter "sh_em">>
+	차승호: 큼, 죄송해요!
+-> 주인공: 저… 승호씨한테 궁금한 거 있는데 물어봐도 돼요?
+	<<PlayAudio2 "Selection">>
+	<<ShowCharacter "sh">>
+	<<IncreaseLikes "sh">>
+	<<IncreaseLikes "sh">>
+	차승호: 헐, 그럼요! 완전 환영이죠. 뭔데요?
+-> 주인공: 성훈씨도 자나요? 같이 얘기해요.
+	<<PlayAudio2 "Selection">>
+	<<ShowCharacter "sh_cr">>
+	<<IncreaseLikes "shn">>
+	차승호: 그러게요, 자나요?
+
+<<ShowCharacter "shn">>
+김성훈: 저…도 안 자는데. 얘기에 껴도 될까요.
+<<ShowCharacter "sh">>
+차승호: 그럼요, 물론입니다!
+<<HideCharacter "sh">>
+
+-> 주인공: 음… 승호씨는 취미가 어떻게 돼요? 
+	<<PlayAudio2 "Selection">>
+	<<ShowCharacter "sh">>
+	차승호: 저는 밴드해요! 대학생 밴드요. 드럼 치는데, 나중에 한번 보여드릴게요! 그건 그렇고…
+-> 주인공: 음… 승호씨는 앞으로 어떻게 할 거예요? 아까 말했던 거요.
+	<<PlayAudio2 "Selection">>
+	<<ShowCharacter "sh">>
+	차승호: 아, 그거요… 제가 좀 생각해봤는데…
+-> 주인공: 음… 승호씨 가방에 걸린 키링은 뭐예요?
+	<<PlayAudio2 "Selection">>
+	<<ShowCharacter "sh">>
+	<<IncreaseLikes "sh">>
+	차승호: 매일매일 바꿔요! 기분이 좋으면 노랑색 귀여운 애 달고, 좀 우울하면 파랑색 슬픈 애 달고요. 귀엽지 않아요? 알아봐줘서 고마워요! 어쨌든, 그건 그렇고요…
+
+<<ShowCharacter "sh_sm">>
+차승호: 저 공예 전공인데요, 때려치우려고요!
+<<HideCharacter "sh_sm">>
+주인공: 네? 갑자기요?
+<<ShowCharacter "sh">>
+차승호: 네. 뭐 생각해보니까, 독일에 나가고 싶더라고요. 제가 워낙 언어 배우는 거 좋아하기도 하고, 잘은 못하지만요! 시험 재수를 지금 몇 회차 돌리는지 모르겠지만요….
+<<ShowCharacter "shn">>
+김성훈: 쉽지 않네요. 
+<<ShowCharacter "sh">>
+차승호: 네, 쉽지 않죠. 그치만 여러분들 덕분이에요. 제가 좀 더 꿈에 가까워진 거요! 
+차승호: 대화하면서 느낀 건데, 저는 혼자 작업하고 예술에 미쳐야 하는 삶보다는 타인과 어울리고 넓은물에서 일하는 게 추구미인 것 같아요.
+<<ShowCharacter "shn">>
+김성훈: 구체적으로 생각해봤어요? 현실적인 방안이라던가요. 
+<<ShowCharacter "sh">>
+차승호: 네, 조금 생각해봤는데요. 유학이나 배낭여행 어때요? 유학은… 엄마랑 좀 상의가 필요할 듯 하지만요. 
+<<ShowCharacter "shn">>
+김성훈: 저는 좋은 것 같은데요. 멋있네요. 꿈을 향해 도전한다는 거. 그래도 우리의 의견보다는 본인의 생각인 거죠? 의지를 갖고 나아갔으면 해서요. 
+<<ShowCharacter "sh">>
+차승호: 그럼요! 지금 누구보다 자신감 넘쳐요. 뭐든 할 수 있을 것 같아요!
+<<ShowCharacter "shn">>
+김성훈: 대단한데요. 제가 가르치는 학생들보다 패기가 넘쳐보이네요. 
+<<ShowCharacter "sh">>
+차승호: 그러고 보니, 학생이면 몇 살이에요?
+<<ShowCharacter "shn">>
+김성훈: 초등학생이요. 
+<<ShowCharacter "sh">>
+차승호: 아, 제가 그럼 초등학생보다 패기가 넘친다는 건가요? 이거 좀 악담 아닌가요. 좀 더시끄럽고 기 빨린다는 그런… 
+<<ShowCharacter "shn">>
+김성훈: 커어… 
+<<ShowCharacter "sh">>
+차승호: 생쥐씨 따라하지 마세요. 
+<<ShowCharacter "shn">>
+김성훈: 네… 
+<<ShowCharacter "ej_sm">>
+한은지: 풉… 
+<<ShowCharacter "sh_cr">>
+차승호: 또 누가 안 자는 것 같은데요?
+<<ShowCharacter "ej">>
+한은지: 저예요. 잠이 안 오네요. 오랜만에 너무 설레는 감정이라서요.
+<<HideCharacter "ej">>
+
+-> 주인공: 승호씨의 개그에 잔뜩 설렜나 보네요. 긴장해야겠어요.
+	<<PlayAudio2 "Selection">>
+	<<ShowCharacter "ej_sm">>
+	<<IncreaseLikes "sh">>
+	한은지: 아, 그쵸. 승호씨 정말 재밌는 사람인 것 같아요.
+-> 주인공: 생쥐라는 게 너무 귀여워서 그런가. 좀 귀여운 애칭인 것 같긴 해요.
+	<<PlayAudio2 "Selection">>
+	<<ShowCharacter "ej">>
+	<<IncreaseLikes "js">>
+	한은지: 생쥐도 귀엽죠. 지수씨 자고 있으니 조용히 말해야겠네요.
+-> 주인공: 고민이 많이 풀렸나봐요. 우리가 도움이 많이 됐나요?
+	<<PlayAudio2 "Selection">>
+	<<ShowCharacter "ej_sm">>
+	<<IncreaseLikes "ej">>
+	<<IncreaseLikes "ej">>
+	한은지: 그럼요. 정확해요! 바깥에 나와서 이렇게 따뜻한 순간을 느낄 줄이야.
+
+<<ShowCharacter "ej">>
+한은지: 저는 지금 무슨 생각을 했냐면요, 제가 지금 이렇게 사는 게… 그 친구에게도, 저에게도 좋은 방향이 아닌 것 같더라구요. 
+한은지: 자꾸 글을 쓰는 것에 대한 부담감이 들고, 글을 쓰면 그때의 감정이 복받쳐서 우울해지고 했는데. 그게 저를 위한 치유의 방법은 아니었던 것 같아요. 
+한은지: 여러분 덕분에 알게 됐죠. 그래서 정말 설레요! 내일도 함께 얘기할 테니까요. 
+<<ShowCharacter "sh">>
+차승호: 너무 감동인데요… 전 저런 말이 너무 좋아요. 약간 울컥하는데요?
+<<ShowCharacter "ej_sm">>
+한은지: 푸하하, 진짜 재밌네요. 그래서… 저는 기차를 내리면, 글 쓰는 것을 그만두려구요. 대신 저만을 위한 휴식을 좀 취해보려고요. 
+<<ShowCharacter "ej">>
+한은지: 과거의 아픔을 새로운 것들로 덮으면서요. 제가 예전부터 요가도 자주 하고, 원예도 좋아했거든요. 그런 취미도 버린지 오래였는데… 이제 다시 해봐야겠어요. 
+<<ShowCharacter "shn">>
+김성훈: 좋은 취미네요. 멋진 여자. 
+<<ShowCharacter "sh_cr">>
+차승호: 어, 저 그거 인슷하에서…
+<<HideCharacter "sh_cr">>
+<<ChatColor>>
+주인공: 해가 뜨기 전까지 그들은 얘기를 나눴다.
+주인공: 언제 잠든 지도 모르는 채로 밤을 보내고, 다시 하루가 밝아오고 있었다.
+
+===

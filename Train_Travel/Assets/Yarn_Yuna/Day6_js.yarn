@@ -1,0 +1,37 @@
+﻿title: Day6_js
+tags:
+---
+<<ChangeImage "지수배경">>
+<<PlayAudio1 "Ending">>
+기차가 목적지에 가까워지며, 하나둘 내리기 시작했다. 
+차창 밖으로 보이는 풍경은 점점 흐려지고, 여정의 끝이 다가오는 듯해 아쉬움이 퍼진다. 
+침대에 놓인 짐들을 치우고 있는 그때였다. 
+<<ShowCharacter "js">>
+윤지수: 큼… 이제 정말 마지막이네요… 어, 창문 좀 봐봐요.
+<<HideCharacter "js">>
+마지막으로 남은 둘은 같이 창문을 바라본다. 
+주인공: 지수씨, 아직 안 갔어요?
+<<ShowCharacter "js">>
+윤지수: 네… 하고 싶은 말이 있어서요. 
+<<HideCharacter "js">>
+주인공: 어떤 거요?
+<<ShowCharacter "js">>
+윤지수: 덕분에 소중한 시간을 보낸 것 같다구…요. 
+윤지수: 비슷한 상황에 놓여있기 때문에 더 챙겨주셨겠지만… 그동안 너무 고마웠어요.
+<<HideCharacter "js">>
+주인공: 저도 너무 소중한 시간을 보냈어요. 우리 여정이 이렇게 끝나는 게 아쉽네요.
+<<ShowCharacter "js">>
+윤지수: 큼, 그러게요… 이렇게 같이 눈을 보니 좋네요. 
+<<ShowCharacter "js_cr">>
+윤지수: 혹시… 실례가 안 된다면… 말을 놓는 건 어때요..?
+<<HideCharacter "js_cr">>
+주인공: 그럼, 당연하죠! 언제든지요. 그럼 지수야, 잠깐 나가자. 사진 찍어줄게!
+<<ShowCharacter "js_sm">>
+윤지수: 응?
+<<HideCharacter "js_sm">>
+<<ChangeEndingImage "지수엔딩">>
+<<wait 4>>
+<<ChangeImage "지수배경">>
+<<ShowItemPop>>
+<<wait 4>>
+===
