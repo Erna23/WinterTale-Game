@@ -10,7 +10,7 @@
     
 - 게임 영상 촬영 및 편집본 제작(ClipChamp 활용)
 
-[시연 영상 보러가기](https://youtu.be/_JOBmKv9mYY)
+[시연 영상 보러가기](https://youtu.be/7XQ5dE5SRY4)
 
 <p align="left">
   <a href="https://github.com/user-attachments/assets/bdc50114-df90-432a-9484-d0ed4eed3bed"><img src="https://github.com/user-attachments/assets/bdc50114-df90-432a-9484-d0ed4eed3bed" width="19%" /></a>
